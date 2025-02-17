@@ -13,7 +13,9 @@ const Navbar = async () => {
     <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
       <nav className="flex justify-between items-center">
         <Link href="/">
-          <Image src="/logo.png" alt="logo" width={143} height={30} />
+          <h4 className="font-bold text-2xl">
+            <span className="text-primary">JEZ</span>GAR
+          </h4>
         </Link>
 
         <div className="flex items-center gap-5">
